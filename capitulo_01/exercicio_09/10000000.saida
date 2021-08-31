@@ -3,11 +3,12 @@ Quociente esperado = 6/pi² = 0.6079271018540267
 --------------------------------------------------
 Quantidade de pares | Quociente obtido 
  10                 |  0.7             
- 100                |  0.6             
- 1000               |  0.595           
- 10000              |  0.6098          
- 100000             |  0.60637         
- 1000000            |  0.607379        
- 10000000           |  0.6078598       
+ 100                |  0.56            
+ 1000               |  0.599           
+ 10000              |  0.6076          
+ 100000             |  0.60708         
+ 1000000            |  0.607547        
+ 10000000           |  0.6079766       
 
-Assim, verificamos que quanto maior a quantidade de pares testados mais próximo de 6/pi² é o quociente.
+Assim, verificamos que quanto maior a quantidade
+de pares testados mais próximo de 6/pi² é o quociente.
