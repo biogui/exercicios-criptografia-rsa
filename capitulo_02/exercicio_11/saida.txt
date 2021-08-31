@@ -1,0 +1,26 @@
+Obtendo todos os números inteiros positivos altamente compostos menores que 5000:
+1
+2 = 2
+4 = 2^2
+6 = 2 * 3
+12 = 2^2 * 3
+24 = 2^3 * 3
+36 = 2^2 * 3^2
+48 = 2^4 * 3
+60 = 2^2 * 3 * 5
+120 = 2^3 * 3 * 5
+180 = 2^2 * 3^2 * 5
+240 = 2^4 * 3 * 5
+360 = 2^3 * 3^2 * 5
+720 = 2^4 * 3^2 * 5
+840 = 2^3 * 3 * 5 * 7
+1260 = 2^2 * 3^2 * 5 * 7
+1680 = 2^4 * 3 * 5 * 7
+2520 = 2^3 * 3^2 * 5 * 7
+
+Observamos algumas coisas nessas dessa lista:
+	- Todos números altamentes compostos (exceto o 1) são pares, justificado abaixo;
+	- Numa fatoração aparecem todos os primos menores que o maior primo dessa fatoração;
+	- Nas fatorações as multiplicidades de cada primo aparecem de forma decrescente
+	  (para p_1^e_1 e p_2^e_2, temos p_1 < p_2 ==> e_1 >= e_2).
+

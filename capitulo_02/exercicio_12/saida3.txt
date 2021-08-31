@@ -1,0 +1,3 @@
+Digite um inteiro n menor que 2^32, para obter dois fatores pela fatoração de Fermat:
+> 
+O resultado após a fatoração foi: n = 4294967295 = 65537 * 65535
