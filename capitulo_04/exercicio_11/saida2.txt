@@ -1,0 +1,4 @@
+Digite a, k e n separados por espaço para o cálculo de a^k (mod n)
+> 
+Calculando temos:
+ 232^34 == 682 (mod 873)

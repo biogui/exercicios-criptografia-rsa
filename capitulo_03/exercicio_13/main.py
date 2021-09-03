@@ -1,6 +1,6 @@
 '''
  Números Inteiros e Criptografia RSA - Capítulo 2.
- Exercício 12 - Frequência de tipos de primo.
+ Exercício 13 - Relação de tipos de primo.
 '''
 from sympy import nextprime
 
