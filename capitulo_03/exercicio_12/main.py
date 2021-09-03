@@ -2,7 +2,6 @@
  Números Inteiros e Criptografia RSA - Capítulo 2.
  Exercício 12 - Frequência de tipos de primo.
 '''
-from math import log
 from tqdm import tqdm
 
 SEPARADOR = '-' * 65

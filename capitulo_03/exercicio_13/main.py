@@ -2,7 +2,6 @@
  Números Inteiros e Criptografia RSA - Capítulo 2.
  Exercício 12 - Frequência de tipos de primo.
 '''
-from sys   import stderr
 from sympy import nextprime
 
 SEPARADOR  = '-' * 65

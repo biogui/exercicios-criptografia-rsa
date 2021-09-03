@@ -3,7 +3,6 @@
  Exercício 11 - Contagem de primos positivos.
 '''
 from math  import log
-from sympy import nextprime
 
 SEPARADOR = '-' * 57
 
