@@ -21,8 +21,8 @@ def mdc_extendido(a, b, u, v, u_, v_):
 
 def main():
     # Recebe como entrada a e b, da equação ax + by = mdc(a, b)
-    inp     = input('Digite a, b e c separados por espaço para a equação ax + by = c\n> ')
-    a, b, c = map(int, inp.split())
+    print('Digite a, b e c separados por espaço para a equação ax + by = c\n> ')
+    a, b, c = map(int, input().split())
 
     d = mdc(a, b)
 

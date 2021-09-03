@@ -2,7 +2,7 @@
  Números Inteiros e Criptografia RSA - Capítulo 2.
  Exercício 11 - Números altamente compostos.
 '''
-from math import sqrt
+from math  import sqrt
 from sympy import primerange
 
 # Obtem a fatoração de um inteiro
