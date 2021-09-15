@@ -1,0 +1,4 @@
+Digite primo p da forma 4k + 3 e a separados por espaço para o cálculo da solução de x^2 == a (mod p)
+> 
+Calculando temos:
+x^2 == 5 (mod 11) ==> S = {-4, 4}

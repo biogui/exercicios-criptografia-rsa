@@ -1,0 +1,4 @@
+Digite a e r para se obter todos primos p <= r | a^(p - 1) == 1 (mod p^2)
+> 
+Calculando temos:
+2^(p - 1) == 1 (mod p^2) ==> S = {1093, 3511}

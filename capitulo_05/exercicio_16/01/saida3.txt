@@ -1,0 +1,2 @@
+Digite a e um primo p separados por espaço para o cálculo do inverso de p em Z_a
+> 82 não tem inverso em Z_41

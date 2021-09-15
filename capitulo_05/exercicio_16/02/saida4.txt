@@ -1,0 +1,4 @@
+Digite a, b e um primo p separados por espaço para o cálculo da solução de ax == b (mod p)
+> 
+Calculando temos:
+82x == 2 (mod 41) ==> S = {}

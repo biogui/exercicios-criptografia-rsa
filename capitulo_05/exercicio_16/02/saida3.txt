@@ -1,0 +1,4 @@
+Digite a, b e um primo p separados por espaço para o cálculo da solução de ax == b (mod p)
+> 
+Calculando temos:
+82x == 123 (mod 41) ==> S = {x | x pertence a Z_41}

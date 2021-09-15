@@ -1,0 +1,4 @@
+Digite a, b e um primo p separados por espaço para o cálculo da solução de ax == b (mod p)
+> 
+Calculando temos:
+5x == 22 (mod 13) ==> S = {7}
