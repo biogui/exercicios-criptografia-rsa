@@ -1,0 +1,3 @@
+Digite dois primos p e q da forma 4k + 3 e a separados por espaço para o cálculo da solução de x^2 == a (mod p * q)
+> 
+x^2 == 11 (mod 133) ==> S = {121}
