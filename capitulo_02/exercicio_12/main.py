@@ -4,11 +4,9 @@
 '''
 from math import sqrt
 
-# Obtém dois fatores de um número n utilizando o algoritmo de Fermat
 def fatores_por_fermat(n):
     if n % 2 == 0: return (2, n//2)
 
-    # Calcula o x inicial
     x = int(sqrt(n))
 
     if x**2 == n: return (x, x)

@@ -1,0 +1,5 @@
+Digite r para se obter todos pseudoprimos p < r para as base 2 e 3.
+> 
+Após cálculos, temos:
+	23 pseudoprimos < r para base 2 e 3: 1105, 1729, 2465, 2701, 2821, 6601, 8911, 10585, 15841, 18721, 29341, 31621, 41041, 46657, 49141, 52633, 63973, 75361, 83333, 83665, 88561, 90751, 93961.
+	Desses, temos 14 números de carmichael, esses são: 1105, 1729, 2465, 2821, 6601, 8911, 10585, 15841, 29341, 41041, 46657, 52633, 63973, 75361.

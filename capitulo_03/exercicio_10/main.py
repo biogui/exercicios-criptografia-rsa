@@ -15,17 +15,13 @@ def primos_ate_n_com_crivo_eratostenes(n):
     return [2] + crivo
 
 def main():
-    # Criando uma f(x) = ax^2 + bx + c, assumiremos que a > 0
     print('Digite a (> 0), b e c separados por espaço para o polimônio f(x) = ax² + bx + c')
     a, b, c = map(int, input('> ').split())
 
-    # Criando e armazenando uma lista com os valores de f(x), com x variando de 0 a 100
     f_x = [a * x**2 + b * x + c for x in range(101)]
 
-    # Pegando o módulo de f(0) e f(100)
     f_x[0], f_x[100] = abs(f_x[0]), abs(f_x[100])
 
-    # Crivo de Eratóstenes para n
     n = max(f_x[0], f_x[100])
     crivo = primos_ate_n_com_crivo_eratostenes(n)
 

@@ -1,0 +1,3 @@
+Digite b para se obter o menor pseudoprimo forte possível para a base b.
+> 
+O menor pseudoprimo forte para a base 5 é 781.

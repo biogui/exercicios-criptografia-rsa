@@ -35,6 +35,5 @@ def main():
     else:
         print(f'{a}^(p - 1) == 1 (mod p^2) ==> S = {{}}')
 
-
 if __name__ == "__main__":
     main()

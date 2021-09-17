@@ -5,7 +5,6 @@
 from math  import sqrt
 from sympy import primerange
 
-# Obtem a fatoração de um inteiro
 def fatora(n):
     possiveis_fatores = primerange(2, n + 1)
 
@@ -19,7 +18,6 @@ def fatora(n):
 
     return fatoracao
 
-# Conta número de divisores de um inteiro positivo n
 def conta_divisores(n):
     raiz_de_n = int(sqrt(n))
 

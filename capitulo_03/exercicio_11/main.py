@@ -38,7 +38,6 @@ def main():
 
         resultados[x] = [f'{abs(pi_x - S_t):.8f}', f'{abs(pi_x - (x / log(x))):.8f}']
 
-    # Printa tabela com resultados
     print('    x    |    pi(x) - S(x)    |   pi(x) - [x / log(x)]   ')
     for x, difs in resultados.items():
         print(f'{SEPARADOR}\n{x:^9}|{difs[0]:^20}|{difs[1]:^26}')
