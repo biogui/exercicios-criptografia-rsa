@@ -1,6 +1,6 @@
 '''
- Números Inteiros e Criptografia RSA - Capítulo 6.
- Exercício 11 - Pseudoprimos p^2 para base 2.
+ Números Inteiros e Criptografia RSA - Capítulo 8.
+ Exercício 20 - Pseudoprimos p^2 para base 2.
 '''
 def primos_ate_n_com_crivo_eratostenes(n):
     if n < 3: return [2] if n == 2 else []
@@ -22,23 +22,23 @@ def pot_mod(a, k, n):
 
     return (modulo * a) % n if k % 2 == 1 else modulo
 
-def teste_fermat(n, b):
-    return (pot_mod(b, n - 1, n) == 1)
+def teste_euler(n, r, b):
+    return (pot_mod(b, n - 1, n**r) == 1)
 
 def main():
     print('Digite r para se obter todos os pseudoprimos para base 2 do tipo p^2, onde p é um primo <= r.')
     r = int(input('> '))
 
-    primos                   = primos_ate_n_com_crivo_eratostenes(r)
-    possiveis_pseudoprimos   = list(map(lambda p: p * p, primos))
-    pseudoprimos_para_base_2 = list(
+    primos                      = primos_ate_n_com_crivo_eratostenes(r)
+    primo_geradores_para_base_2 = list(
         filter(
-            lambda i: teste_fermat(i, 2),
-            possiveis_pseudoprimos
+            lambda p: teste_euler(p, 2, 2),
+            primos
         )
     )
 
-    pseudoprimos_str = ", ".join(map(str, pseudoprimos_para_base_2))
+    pseudoprimos_para_base_2 = list(map(lambda p: p*p, primo_geradores_para_base_2))
+    pseudoprimos_str         = ", ".join(map(str, pseudoprimos_para_base_2))
     print('\nApós cálculos, temos:')
     print(f'\t{len(pseudoprimos_para_base_2)} pseudoprimos obtidos para base 2: {pseudoprimos_str}.')
 

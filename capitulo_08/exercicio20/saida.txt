@@ -1,0 +1,4 @@
+Digite r para se obter todos os pseudoprimos para base 2 do tipo p^2, onde p é um primo <= r.
+> 
+Após cálculos, temos:
+	2 pseudoprimos obtidos para base 2: 1194649, 12327121.

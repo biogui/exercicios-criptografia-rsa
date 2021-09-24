@@ -8,7 +8,7 @@ BARRA_GRAFICA = '-' * 50
 def mdc(a, b):
     return a if b == 0 else mdc(b, a % b)
 
-def mdc_extendido(a, b, u, v, u_, v_): 
+def mdc_extendido(a, b, u=1, v=0, u_=0, v_=1):
     if b == 0:
         return a, u, v
     else:

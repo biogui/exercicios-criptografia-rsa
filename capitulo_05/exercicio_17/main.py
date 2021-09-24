@@ -18,7 +18,7 @@ def main():
     b = pot_mod(a, k + 1, p)
 
     print('\nCalculando temos:')
-    if b*b % p == a:
+    if b*b % p == a % p:
         print(f'x^2 == {a} (mod {p}) ==> S = {{{-b}, {b}}}')
     else:
         print(f'x^2 == {a} (mod {p}) ==> S = {{}}')
