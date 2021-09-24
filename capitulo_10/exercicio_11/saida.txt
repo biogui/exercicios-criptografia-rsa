@@ -1,0 +1,8 @@
+Calculando o tempo de execução do teste de Wilson para o maiores primos menores que 10^k, com k <= 6.
+Executando temos ...
+	n = 7 < 10^1 é primo, e o teste é executado em 0.00 ms.
+	n = 97 < 10^2 é primo, e o teste é executado em 0.01 ms.
+	n = 997 < 10^3 é primo, e o teste é executado em 0.06 ms.
+	n = 9973 < 10^4 é primo, e o teste é executado em 0.64 ms.
+	n = 99991 < 10^5 é primo, e o teste é executado em 7.45 ms.
+Podemos aproximar o tempo de execução para T = 10^{k - 5} ms, portanto para um k = 100, o programa seria executado em um tempo próximo de 10^92 segundos.

@@ -1,6 +1,6 @@
 '''
- Números Inteiros e Criptografia RSA - Capítulo 11.
- Exercício 8 - Criptografia de Rabin.
+ Números Inteiros e Criptografia RSA - Capítulo 10.
+ Exercício 11 - Teste de Primalidade.
 '''
 from sympy import prevprime
 import datetime

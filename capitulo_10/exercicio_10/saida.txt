@@ -1,0 +1,13 @@
+Verificando qual maior n é computacionalmente aplícavel ao teste de Pepin ...
+	n = 5 -> F(5) é composto.
+	n = 6 -> F(6) é composto.
+	n = 7 -> F(7) é composto.
+	n = 8 -> F(8) é composto.
+	n = 9 -> F(9) é composto.
+	n = 10 -> F(10) é composto.
+	n = 11 -> F(11) é composto.
+	n = 12 -> F(12) é composto.
+	n = 13 -> F(13) é composto.
+	n = 14 -> F(14) é composto.
+	n = 15 -> F(15) é composto.
+Para n = 15 o programa já começa a demora mais que cerca de 1.0 minutos.

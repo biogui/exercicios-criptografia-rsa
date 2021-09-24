@@ -1,0 +1,5 @@
+Obtendo os números de Fermat divisíveis por 37 x 2^16 + 1 e 11131 x 2^12 + 1.
+
+Após cálculos, temos:
+	37 x 2^16 + 1 | F(9) .
+	11131 x 2^12 + 1 | F(10) .
