@@ -85,7 +85,7 @@ def main():
         solucoes      = [s, N - s, u * s % N, u * -s % N]
         decodificoes = list(map(pos_decodificacao, solucoes))
 
-        print(f'\t• bloco = {bloco}, são:')
+        print(f'\t• bloco = {bloco}:')
         print(f'\t {solucoes[0]:<8} -> {decodificoes[0]}.')
         print(f'\t {solucoes[1]:<8} -> {decodificoes[1]}.')
         print(f'\t {solucoes[2]:<8} -> {decodificoes[2]}.')
