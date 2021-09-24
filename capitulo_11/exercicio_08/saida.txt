@@ -1,0 +1,16 @@
+Decodificando a mensagem 18504501 - 18109888 para a Criptografia de Rabin com n = 20490901.
+Executando temos ...
+(1) Fatorando, obtemos n = 4999 x 4099.
+(2) Decodificando, via soluções de x^2 = a (mod n).
+	• bloco = 18504501, são:
+	 19012427 -> BLOCO INVÁLIDO.
+	 1478474  -> BLOCO INVÁLIDO.
+	 20389691 -> BLOCO INVÁLIDO.
+	 101210   -> ACA.
+	• bloco = 18109884, são:
+	 7056136  -> BLOCO INVÁLIDO.
+	 13434765 -> BLOCO INVÁLIDO.
+	 112430   -> BOU.
+	 20378471 -> BLOCO INVÁLIDO.
+
+Dessa forma obtemos "ACABOU" como a mensagem original.
